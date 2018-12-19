@@ -42,3 +42,17 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+Tutorial Notes *********************************************************************************************
+  VIDEO 8
+You can call functions with just {this.handleClick} if you don't need to pass args. If you do need args then use {()=> this.handleClick(args)}.
+You can't just use {this.handleClick(args)} becasue is will immediately call when page loads.
+
+Arrow functions auto bind 'this' to the parent component of the functions relative to its physical position in the code
+
+  VIDEO 11
+MPA vs SPA
+MPAs send request to and receive responses from the server for every page requested. SPAs only do this once at the beginning for index.html, then as the virtual DOM, and therefore real DOM, are updated the new 'views' are handled by React without requiring server request/response. Basically the views of a SPA don't require commincation with the server.
