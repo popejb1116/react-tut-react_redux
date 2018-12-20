@@ -7,11 +7,10 @@ const Ninjas = ({ninjas}) =>  {
       <div className="ninja" key={ninja.id}>
         <div>Name: {ninja.name}</div>
         <div>Age: {ninja.age}</div>
-        <div>Belt: {ninja.belt}</div>
+        <div>Belt: {ninja.belt}</div><br/>
       </div>
       : 
-      null
-      
+      null  
   })
   
   return (      
