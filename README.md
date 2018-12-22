@@ -56,3 +56,13 @@ Arrow functions auto bind 'this' to the parent component of the functions relati
   VIDEO 11
 MPA vs SPA
 MPAs send request to and receive responses from the server for every page requested. SPAs only do this once at the beginning for index.html, then as the virtual DOM, and therefore real DOM, are updated the new 'views' are handled by React without requiring server request/response. Basically the views of a SPA don't require commincation with the server.
+
+  VIDEO 26
+Link vs NavLink
+Both Link and NavLink convert to href's in html but NavLink generates class="active".
+This is useful if you want to style individual links 'NavLinks'.
+
+  VIDEO 27
+Simple redirect implemented in Navbar.js using props.history which is only added to props with <Route> component. Navbar must be 
+passed as a higher order component using 'withRouter'. Higher order components are just wrapper that provide additional functionality
+to other components.
