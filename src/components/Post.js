@@ -24,10 +24,10 @@ class Post extends Component {
   }
 
   render() {
-
+    
     let post = this.state.post ? (
-      <div className="post">
-        <h4 className="center">{this.state.post.title}</h4>
+      <div className="post left">
+        <h4>{this.state.post.title}</h4>
         <p>{this.state.post.body}</p>
       </div>
     ) : (
@@ -36,7 +36,7 @@ class Post extends Component {
 
     return (
       <div className="container">
-        <h4>{post}</h4>        
+        <div>{post}</div>        
       </div>
     )
   }
