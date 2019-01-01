@@ -20,8 +20,8 @@ class Home extends Component {
                 <Link to={'/' + post.id}>
                   <span className="card-title">{post.title}</span>
                 </Link>              
-                <p>{post.body}</p>
-              </div>
+                <p>{post.body}</p>    
+              </div>              
             </div>
           </div>
         )
