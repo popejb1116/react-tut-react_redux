@@ -66,3 +66,5 @@ This is useful if you want to style individual links 'NavLinks'.
 Simple redirect implemented in Navbar.js using props.history which is only added to props with <Route> component. Navbar must be 
 passed as a higher order component using 'withRouter'. Higher order components are just wrapper that provide additional functionality
 to other components.
+
+Test Commit to check sync
